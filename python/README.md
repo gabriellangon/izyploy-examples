@@ -5,7 +5,7 @@ FastAPI application exposing `/` and `/health`. It listens on `0.0.0.0` and uses
 ## Test
 
 ```bash
-python -m pip install -r requirements.txt
+python -m pip install -r requirements-dev.txt
 pytest
 ```
 

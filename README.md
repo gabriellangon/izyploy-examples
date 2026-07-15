@@ -95,7 +95,7 @@ Run native tests:
 
 ```bash
 cd python
-python -m pip install -r requirements.txt
+python -m pip install -r requirements-dev.txt
 pytest
 ```
 
@@ -176,7 +176,7 @@ docker stop izyploy-example-rust
 ```json
 {
   "name": "hello-java",
-  "git_url": "https://github.com/<owner>/izyploy-examples.git",
+  "git_url": "https://github.com/gabriellangon/izyploy-examples.git",
   "branch": "main",
   "build_context": "java",
   "container_port": 8080
@@ -186,7 +186,7 @@ docker stop izyploy-example-rust
 ```json
 {
   "name": "hello-php",
-  "git_url": "https://github.com/<owner>/izyploy-examples.git",
+  "git_url": "https://github.com/gabriellangon/izyploy-examples.git",
   "branch": "main",
   "build_context": "php",
   "container_port": 8080
@@ -196,7 +196,7 @@ docker stop izyploy-example-rust
 ```json
 {
   "name": "hello-python",
-  "git_url": "https://github.com/<owner>/izyploy-examples.git",
+  "git_url": "https://github.com/gabriellangon/izyploy-examples.git",
   "branch": "main",
   "build_context": "python",
   "container_port": 8000
@@ -206,7 +206,7 @@ docker stop izyploy-example-rust
 ```json
 {
   "name": "hello-rust",
-  "git_url": "https://github.com/<owner>/izyploy-examples.git",
+  "git_url": "https://github.com/gabriellangon/izyploy-examples.git",
   "branch": "main",
   "build_context": "rust",
   "container_port": 8080
