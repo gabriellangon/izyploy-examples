@@ -1,6 +1,6 @@
 # Izyploy example applications
 
-This repository contains four small, independent HTTP applications for testing Izyploy, a learning-oriented deployment platform. Each application directory is an independent Docker build context and exposes the same JSON contract on `/` and `/health`.
+This repository contains four small, independent HTTP applications for validating Izyploy deployments. Each application directory is an independent Docker build context and exposes the same JSON contract on `/` and `/health`.
 
 | Application | Build context | Default port | Root endpoint | Health endpoint |
 | --- | --- | ---: | --- | --- |
